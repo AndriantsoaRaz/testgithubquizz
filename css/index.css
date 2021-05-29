@@ -1,0 +1,70 @@
+h1.titreGeneral{
+	color: white;
+	font-weight: bold;
+}
+li.listeGauche{
+	list-style-type: square;
+}
+li.listeDroite{
+	list-style-type: circle;
+}
+ul.contpage{
+	background-image: linear-gradient(to bottom right, cadetblue 10%, #00cc66 );
+    width: 302px;
+    padding-top: 7px;
+    border-radius: 17px;
+}
+li.pagenumber{
+	display: inline-block;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding-top: 4px;
+	/*border: 3px solid blanchedalmond;*/
+	background-color: #ebebe0;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 12px
+}
+li.active{
+	background-color: lightgreen
+}
+li.pagenumber:hover{
+	background-color: lightgreen
+}
+a.page{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px
+}
+.placePagination{
+	left: 30%;
+	position: relative;
+	background-color: pink
+}
+li.next:hover{
+	background-color:#ff6666
+}
+a.lisgau{
+	text-decoration: none;
+	color: #ff3300;
+}
+h1.titrequestion{
+	font-family: forte
+}
+.reponse{
+	margin-left: 50px
+}
+.validation{
+	background-color: #ff4d4d;
+	width: 100px;
+	height: 40px;
+	font-weight: bold;
+	position: relative;
+}
+.validation:hover{
+	background-color: #6666ff;
+	
+}
