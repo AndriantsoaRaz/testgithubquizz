@@ -42,7 +42,7 @@ a.page{
 .placePagination{
 	left: 30%;
 	position: relative;
-	background-color: pink
+	
 }
 li.next:hover{
 	background-color:#ff6666
